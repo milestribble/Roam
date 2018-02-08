@@ -1,0 +1,57 @@
+    .icon {
+      background-image: url('/assets/images/sprites/sprite-42fede05.svg');
+    }
+
+  .icon--World_Map {
+    width: 960px;
+    height: 560px;
+    background-position: 0 0;
+  }
+
+  .icon--account {
+    width: 48px;
+    height: 48px;
+    background-position: 98.79912663755458% 38.27313253012048%;
+  }
+
+  .icon--flight {
+    width: 48px;
+    height: 48px;
+    background-position: 98.79912663755458% 44.05626506024096%;
+  }
+
+  .icon--loading {
+    width: 200px;
+    height: 200px;
+    background-position: 57.142857142857146% 99.36091445427728%;
+  }
+
+  .icon--location {
+    width: 48px;
+    height: 48px;
+    background-position: 98.79912663755458% 49.83939759036144%;
+  }
+
+  .icon--login {
+    width: 919.332px;
+    height: 317.667px;
+    background-position: 0 99.94057105328437%;
+  }
+
+  .icon--logout {
+    width: 919.332px;
+    height: 317.667px;
+    background-position: 99.93046505140173% 0;
+  }
+
+  .icon--map {
+    width: 48px;
+    height: 48px;
+    background-position: 98.79912663755458% 55.622530120481926%;
+  }
+
+  .icon--roam {
+    width: 850px;
+    height: 356px;
+    background-position: 93.20388349514563% 60.855747126436775%;
+  }

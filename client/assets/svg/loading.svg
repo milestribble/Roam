@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <g fill="#61DAFB" x="50%" y="50%" pointer-events="visible" transform="translate(50%,50%)">
+        <circle cx="50%" cy="33%" r="25" fill="#61DAFB" />
+        <circle cx="33%" cy="66%" r="30" fill="#61DAFB" />
+        <circle cx="66%" cy="66%" r="20" fill="#61DAFB" />
+    </g>
+</svg>

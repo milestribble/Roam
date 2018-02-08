@@ -1,0 +1,13 @@
+.page {
+  padding: 50px 10px 0px;
+  @mixin atMedium {
+    padding: 10px 10px 10px 65px; 
+  }
+
+  &--center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+}

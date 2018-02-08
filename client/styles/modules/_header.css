@@ -1,0 +1,61 @@
+.header {
+  position: fixed;
+  height: 100vh;
+  width: 60px;
+  z-index: 2;
+
+  &--background {
+    position: fixed;
+    height: 100vh;
+    width: 60px;
+    display: flex;
+    padding-left: 2px;
+    padding-right: 10px;
+    justify-content: space-between;
+    background-color: rgba(100,100,100,0.7);
+    left: -70px;
+    transition: 0.5s ease-out 2s;
+    flex-direction: column;
+  }
+
+  &--nav {
+    padding-left: 7px;
+    display: inline;
+    &:before {
+      content: " ";
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  &--icon {
+    height: 40px;
+    width: 50px;
+    margin-left: 5px;
+    position: absolute;
+    z-index: 3;  
+    
+    &-style {
+      fill: black;
+      transition: 0.5s ease-out 1s;
+    }
+    
+    &-nav {
+      margin-bottom: 10px;
+      height: 35px;
+      width: 40px;
+    } 
+  }
+
+  &:hover {
+    & > .header--background {
+      left: 0px;
+      transition: 0.5s ease-out 0s;
+    }
+    
+    & .header--icon-style {
+      fill: white;
+      transition: 0.5s ease-out 0s;      
+    }
+  }
+}
